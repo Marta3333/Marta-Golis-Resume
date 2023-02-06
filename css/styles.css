@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #3b5998;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #3b5998;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #40514e;
+  text-align: justify;
+}
+
+a {
+  color: #3b5998;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7791c9;
+}
+
+ul{
+  display: flex;
+}
+header{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+footer{
+  color: #FFFFFF;
+  margin-top: auto;
+  text-align: center;
+}
+button{
+  padding: 10px 20px;
+  background-color: #2f3236;
+  border: 1px solid #2f3236;
+  border-radius: 5px;
+  color: #2bd3d6;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+button:hover{
+  color: #FFFFFF;
+}
+i{
+  font-size: 8px;
+}
+/* top container */
+.photo{
+  background-color: #000000;
+  padding: 20px;
+}
+.presentation{
+  max-width: 80%;
+  text-align: justify;
+  padding-top: 20px;
+}
+.presentation-follow{
+  max-width: 80%;
+  text-align: justify;
+}
+.about{
+  background-color: #3b5998;
+  color: #FFFFFF;
+  padding: 20px 10px 20px 30px;
+}
+.name{
+  text-align: left;
+}
+.space{
+margin-right: 10px;
+}
+.developer{
+  font-size: 18px;
+  color:#2bd3d6;
+}
+.img-face{
+  max-width: 50%;
+  padding-top: 5px;
+}
+.contact-me{
+  padding: 0 0 10px;
+}
+.portfolio{
+  margin: 30px 0 10px;
+  background-color: #2f3236;
+  padding: 10px;
+  border: 1px solid #2f3236;
+  border-radius: 5px;
+}
+.contact-img{
+  width: 100%;
+  max-width: 60px;
+  display: inline-block;
+  padding: 10px;
+}
+.linkedin{
+  padding: 10px;
+}
+/* middle container */
+.skills{
+  background-color: black;
+  padding: 20px 20px;
+}
+.skills-h3{
+  padding-bottom: 10px;
+}
+.align {
+  text-align: left;
+}
+.protected {
+  margin-left: 10%;
+}
+.education{
+  background-color: #FFFFFF;
+  padding: 20px 10px 20px 30px;
+}
+.school {
+  color: #3b5998;font-weight: bold;
+}
+.p-t{
+  padding-top: 10px;
+}
+.middle-section{
+  text-align: left;
+}
+.title{
+  padding-bottom: 10px;
+}
+.course{
+  margin: 0;
+  padding-bottom: 10px;
+}
+.school {
+  margin: 0;
+}
+.description{
+  margin: 0;
+}
+
+.icon {
+  width: 100%;
+  max-width: 80px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.examples {
+  padding-top: 10px;
+}
+.work-h3 {
+  padding-top: 20px;
+}
+.dates-padding {
+  padding-top: 10px;
+}
+.interests-h3 {
+  padding-top: 50px;
+}
+
+.link {
+  background-color: #4f2121;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.interests {
+  margin-bottom: 20px;
+}
+.add-padding {
+  padding-bottom: 20px;
+}
+.language{
+  width: 50px;
+  height: 38px;
+  padding: 10px;
+}
+
+/* contact.html */
+body.bodyBackground{
+  background-color: #2f3236;
+}
+
+div.card-body.contactText{
+  padding: 0;
+}
+
+h1.card-title.contact{
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.message {
+  font-size: 24px;
+}
+
+.contact_details {
+  padding-bottom: 30px;
+  text-align: center;
+  color: #2bd3d6;
+}
+.background {
+  background-color: #3b5998;
+}
+.text-color {
+  color: #FFFFFF;
+}
+
+.message-label {
+  padding: 0 0 10px;
+}
+.send_button {
+  margin-top: 10px;
+  border: 0;
+  padding: 0 10px;
+  color: #2f3236;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+/* footer */
+.copyright{
+  padding-top: 16px;
+}
+.footer-black {
+  background-color: #000000;
+  padding: 0;
+}
+.footer-blue {
+  background-color: #3b5998;
+  padding: 0;
+}
+/* Thank You Page */
+nav{
+  background-color: #0000008C;
+}
+a{
+  font-family: 'Merriweather', serif;
+}
+div.card{
+  border: 0;
+}
+div.card-body{
+  background-color: #2f3236;
+  width: 100%;
+  height:545px;
+  text-align: center;
+  color: #ffffff;
+}
+h1.card-title{
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+  color: #2bd3d6;
+  text-align: center;
+}
+div.card-footer{
+  height: 56px;
+  background-color: #0000008C;
+}
+p.copyrightOther{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+/* contact page */
+div.contactPadding{
+  padding: 10px;
+}
+form.formContact{
+  margin-bottom: 10px;
+}
+h1.titleContact{
+  margin-bottom: 20px;
+}
+button.contactSendButton{
+  color: #2bd3d6;
+  background-color: #000000;
+  border-color: #000000;
+}
+button.contactSendButton:hover{
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/* portfolio page */
+.newColor{
+  background-color: #000000;
+}
+div.newColor{
+  background-color: #000000;
+}
+.navbar-toggler-icon{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+button.portfolioButton{
+  padding: 10px 20px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #2bd3d6;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button.portfolioButton:hover{
+  color: #ffffff;
+}
+button.m-b{
+  margin-bottom: 0;
+}
+button.navbar-toggler.btn.btn-light{
+  background-color: #D3D3D3;
+}
+/* webflowPage/canvaPage */
+h1.card-title.webflow{
+  padding-bottom: 50px;
+}
+button.webflow{
+  padding: 10px 20px;
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  color: #2f3236;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+@media (max-width: 300px){
+  h1.card-title.webflow{
+    font-size: 25px;
+  }
+  button.portfolioButton{
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+}
+
+.photo1{
+  background-color: #000000;
+  padding: 20px 10px;
+  width: 100%;
+}
+@media (max-width: 699px){
+  .photo{
+    padding: 20px 10px;
+  }
+  .about{
+    padding: 20px 10px;
+  }
+  .skills{
+    padding: 20px 10px;
+  }
+  .education{
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 599px){
+  .about{
+    width: 100%;
+  }
+  .photo{
+    width: 100%;
+    display: none;
+  }
+  .skills{
+    width: 100%;
+  }
+  .education{
+    width: 100%;
+  }
+  .footer-black{
+    display: none;
+  }
+  .footer-blue{
+    width: 100%;
+  }
+  .name{
+    text-align: center;
+  }
+  .presentation{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .presentation-follow{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+@media (min-width: 600px){
+  .photo1{
+    display: none;
+  }
+}
