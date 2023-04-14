@@ -313,6 +313,29 @@ margin-right: 10px;
 }
 
 @media (max-width: 599px){
+  .newContactMe{
+    padding-top: 30px;
+  }
+  .padding-interests{
+    padding-top: 40px;
+  }
+  .padding-programming{
+    padding: 0;
+    margin: 0;
+  }
+  .padding-English{
+    padding-bottom: 30px;
+    margin: 0;
+  }
+  .padding-education{
+    padding-top: 30px;
+  }
+  .padding-description{
+    padding-bottom: 30px;
+  }
+  .padding-name{
+    padding-top: 30px;
+  }
   .about{
     width: 100%;
   }
