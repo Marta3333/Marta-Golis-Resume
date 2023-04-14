@@ -68,6 +68,19 @@ a.text-decoration:hover{
   color: #ffffff;
 }
 
+a.OdeonScan{
+  text-decoration: underline;
+  color: #3b5998;
+}
+
+a.OdeonScan:hover{
+  color: #7791c9;
+}
+
+p.scan:hover{
+  color: #7791c9;
+}
+
 ul{
   display: flex;
 }
